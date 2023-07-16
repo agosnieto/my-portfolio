@@ -1,0 +1,23 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h3{
+    text-align: center;
+}
+.izquierda{
+    background-color: #E5E5E5;
+    width:50%;
+    height:100vh;
+}
+.derecha{
+    background-image: url("../img/fondo.jpg");
+    background-size:cover;
+    background-position:center;
+    width: 50%;
+    height: 100vh;
+}
+#pantalla-dividida{
+    display: flex;
+}
